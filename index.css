@@ -123,3 +123,65 @@ display: flex;
     scale:0.7;
     transition: 0.5s;
 }
+
+/* SECTION 2 */
+
+.section2{
+    background-color: #171f26; ;
+    padding: 28px;
+    display: flex;
+
+}
+
+.h4{
+    margin: 0;
+    color: violet;
+}
+
+.section2 h1,h3{
+    color: white;
+}
+
+.titlesection2
+{
+    font-size: 65px;
+
+}
+
+.section2 p{
+    color:#e4dbdb
+}
+
+.btn3{
+    background: inherit;
+    border: 1px solid violet;
+    color: violet;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.btn3:hover{
+    color: white;
+    background-color: violet;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.section2droite{
+    width: 41%;
+
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h2,h3,p{
+color: white;
+
+}
