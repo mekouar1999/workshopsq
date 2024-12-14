@@ -14,7 +14,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
 
 }
 
@@ -25,6 +24,8 @@ a{
 
 .section1{
     	background: linear-gradient(#13181d, #20212e, #341b47);
+        padding: 28px;
+
 }
 
 
@@ -58,4 +59,67 @@ body{
     color: white;
     background-color: violet;
     transition: 1s;
+}
+
+
+/* MAIN PAGE */
+
+.mainpage{
+display: flex;
+}
+
+.titlemainpagepagegauche{
+    color: white;
+    font-size: 54px;
+ 
+
+}
+
+.pmainpagepagegauche{
+    color: rgb(233, 227, 227);
+    width: 58%;
+}
+
+.btn2{
+    color: white;
+    background: violet;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 6px 2px violet;
+    margin-top: 20px;
+}
+
+.btn2:hover{
+    cursor:pointer;
+    background-color: inherit;
+    transition: 0.7s;
+}
+
+.image{
+    width: 170px;
+    height: 170px;
+    background-color: black;
+    opacity: 0.3;
+    border-radius: 21px;
+   padding:2px;
+}
+
+.images{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.photo{
+    width: 171px;
+    height: 150px;
+   margin: 8px 0 8px 0;
+
+}
+
+.photo:hover{
+    cursor: pointer;
+    scale:0.7;
+    transition: 0.5s;
 }
