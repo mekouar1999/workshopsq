@@ -1,0 +1,61 @@
+.logo{
+    color:  violet;
+    font-size: 36px;
+}
+
+.divdroite{
+    display: flex;
+    gap:43px;
+    align-items: center;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.section1{
+    	background: linear-gradient(#13181d, #20212e, #341b47);
+}
+
+
+.itemnavbar{
+    color: white;
+    font-weight: 100;
+}
+.itemnavbar:hover{
+    color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+body{
+    margin: 0
+;
+}
+
+.btn1{
+    color: violet;
+    padding: 9px;
+    background: inherit;
+    border: 1px solid violet;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+.btn1:hover{
+    cursor: pointer;
+    color: white;
+    background-color: violet;
+    transition: 1s;
+}
